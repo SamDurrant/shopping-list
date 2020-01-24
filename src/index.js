@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-function Test() {
+
+function App() {
   return (
-    <div className="header">
-      <h1>Shopping List Extraordinaire!</h1>
-    </div>
-  )
+    <>
+      <NavBar />
+      <Home />
+      <Footer />
+    </>
+  );
 }
 
-ReactDOM.render(<Test/>, document.querySelector("#root"));
+ReactDOM.render(<App/>, document.querySelector("#root"));
