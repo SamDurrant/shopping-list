@@ -4,8 +4,8 @@ import GroceryItem from '../GroceryItem/GroceryItem';
 export class GroceryList extends Component {
   render() {
     return (
-      <div>
-        <h3>Grocery list</h3>
+      <div className="grocery-list">
+        <h3 className="grocery-list-title">Grocery list</h3>
         <GroceryItem />
         <GroceryItem />
         <GroceryItem />
