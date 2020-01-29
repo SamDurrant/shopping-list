@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
 import Pineapple from '../../images/pineapple.svg';
-import styles from './NavBar.module.css';
+import './NavBar.css';
 export class NavBar extends Component {
   render() {
     return (
-      <nav className={styles.navigation}>
+      <nav className="navigation">
         <div>
           <img 
             src={Pineapple} 
             alt="pineapple logo"
-            className={styles.logo}/>
+            className="logo"/>
         </div>
-        <h1 className={styles.headingPrimary}>Little List</h1>
-        <i className={`fas fa-home ${styles.homeIcon}`}></i>
+        <h1 className="heading-primary">Little List</h1>
+        <i className="fas fa-home home-icon"></i>
       </nav>
     )
   }

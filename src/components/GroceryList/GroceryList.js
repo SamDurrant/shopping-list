@@ -6,9 +6,16 @@ export class GroceryList extends Component {
   render() {
     return (
       <div className="grocery-list">
-          <GroceryItem />
-          <GroceryItem />
-          <GroceryItem />
+          {
+            // maps over list of items and displays a grocery item for each one
+            this.props.allItems.map((item, i) => {
+              return (
+                <GroceryItem
+                  key={`${item}${i}`} 
+                  itemValue={item} />
+              )
+            })
+          }
       </div>
     )
   }
