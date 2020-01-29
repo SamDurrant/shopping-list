@@ -1,13 +1,13 @@
 .navigation {
-  max-height: 200px; 
+  max-height: 200px;
   width: 100%;
   padding: 5px 15px;
   border-bottom: 2px solid #555;
-  display: flex; 
+  display: flex;
   align-items: center;
 }
 
-.headingPrimary {
+.heading-primary {
   padding: 5px;
   flex: 1;
 }
@@ -17,9 +17,9 @@
   display: block;
 }
 
-.homeIcon {
+.home-icon {
   display: block;
   height: fit-content;
   font-size: 25px;
-  color: #a7c180;
+  color: var(--primary-color);
 }
