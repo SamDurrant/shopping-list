@@ -6,14 +6,17 @@ import Home from './pages/Home/Home';
 import './index.css';
 
 
-function App() {
-  return (
-    <>
-      <NavBar />
-      <Home />
-      <Footer />
-    </>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <NavBar />
+        <Home />
+        <Footer />
+      </div>
+    );
+  }
 }
+
 
 ReactDOM.render(<App/>, document.querySelector("#root"));
