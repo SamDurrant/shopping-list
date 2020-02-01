@@ -6,7 +6,7 @@ import './Home.css';
 export class Home extends Component {
   state = {
     userItemInput: '',
-    items: ['bananas', 'apples', 'oatmeal', 'eggs', 'bread', 'chocolates']
+    items: ['bananas', 'apples', 'oatmeal', 'eggs', 'bread', 'chocolates'] 
   }
 
   handleChange = e => {
