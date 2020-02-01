@@ -1,7 +1,6 @@
 .grocery-list {
-  text-align: center;
+  text-align: left;
   padding: 1rem 2rem;
-  border: 1px solid black;
   width: 25%;
 }
 

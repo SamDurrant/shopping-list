@@ -5,7 +5,7 @@ export class GroceryItem extends Component {
   render() {
     return (
       <div className="grocery-item">
-        <li>Potatoes</li>
+        <li>{this.props.itemValue}</li>
       </div>
     )
   }
